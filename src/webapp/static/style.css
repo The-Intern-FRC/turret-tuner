@@ -110,7 +110,7 @@ input[type="file"] {
 /* ---------------------------
    Loading Bar
 ---------------------------- */
-#loading-bar {
+.loading-bar {
     display: none;
     height: 6px;
     width: 100%;
@@ -120,7 +120,7 @@ input[type="file"] {
     margin-top: 15px;
 }
 
-#loading-fill {
+.loading-fill {
     width: 0%;
     height: 100%;
     background-color: #00bcd4;
@@ -151,7 +151,7 @@ input[type="file"] {
 /* ---------------------------
    Status Messages
 ---------------------------- */
-#status, #pdf-status {
+#status, #pdf-status, #upload-status {
     margin-top: 15px;
     font-weight: 500;
 }
@@ -179,6 +179,28 @@ canvas {
 }
 
 /* ---------------------------
+   Tuning Coefficients Table
+---------------------------- */
+#tuning-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tuning-table th,
+#tuning-table td {
+    border: 1px solid #333;
+    padding: 8px 12px;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+#tuning-table th {
+    background-color: #1f1f1f;
+    font-weight: 600;
+}
+
+/* ---------------------------
    Dashboard Title + Description
 ---------------------------- */
 .dashboard-header {
@@ -195,4 +217,3 @@ canvas {
     font-size: 1.2rem;
     color: #b0b0b0;
 }
-
