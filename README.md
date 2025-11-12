@@ -1,9 +1,8 @@
-this is v1 of the final version. It is not the repo i will be using. it has not been deleted for a reason that can be described only by the following:
-
-"thanks for the memories/even if they were't so good"
-
+# **This is the testbed, the whiteboard of the final version, if you will. It is not the repo i will be using. it has not been deleted for a reason that can be described only by the following:**
+ **"thanks for the memories/even if they were't so good"**
 
 
+# previous readme: 
 
 hi so this is a little thing I made. the previous readme took itself too seriously so this one exists now. basically you plug in your advantagekit logs and poof you get data and pdf 
 files and speradsheets and it tells you what to tune your shooter coefficents to based on real world data from your robot! Hopefully!
